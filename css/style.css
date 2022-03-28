@@ -11,6 +11,10 @@
   font-family: dosismedium;
   font-size: 12pt;
 }
+
+body {
+  overflow-x: hidden;
+}
 .row {
   width: 100%;
   float: left;
