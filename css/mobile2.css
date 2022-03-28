@@ -1,0 +1,207 @@
+/* ================ Mobile view================= */
+@media (max-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+    float: none;
+    margin: auto;
+    display: inline-block;
+  }
+  body {
+    width: 100%;
+  }
+  #services-part .container {
+    width: 100%;
+    margin: auto;
+  }
+  #app .hero-writing-part h1 {
+    width: 100%;
+    padding: 0% 5% 3% 5%;
+    font-size: 18pt;
+  }
+  #app .hero-writing-part p {
+    text-align: justify;
+    padding: 3% 5%;
+  }
+  .hero-img-part img {
+    width: 20%;
+    margin-left: 40%;
+    display: inline-block;
+  }
+  .hr1 {
+    position: absolute;
+    top: 20%;
+  }
+  #services-part .services .service1,
+  #services-part .services .service2,
+  #services-part .services .service3,
+  #services-part .services .service4 {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+  }
+  #app .hero-writing-part {
+    margin: 0;
+  }
+  .heading-part h2 {
+    margin-top: 40%;
+  }
+  .logo-part img {
+    display: blocK;
+    margin: auto;
+    transition: all 0.2s ease-out;
+  }
+  .btn-part button {
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 5px;
+    right: 0;
+    top: 0;
+  }
+  nav #myLinks {
+    display: none;
+    overflow: hidden;
+  }
+  .manu-part ul li {
+    display: inline-block;
+  }
+  .btn-part img {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    left: 0;
+    top: 0;
+    padding: 2%;
+  }
+  .btn-part img:hover {
+    background-color: coral;
+  }
+
+  #services-part .hr2 {
+    margin-left: 40%;
+  }
+  #companny-info .rowclass h4,
+  p {
+    padding-left: 7%;
+  }
+  #companny-info {
+    background-color: #f5f6fa;
+    display: inline-block;
+    margin-top: 10%;
+  }
+  #companny-info .rowclass .block-image img {
+    display: none;
+  }
+  #companny-info .rowclass .text-part {
+    width: 80%;
+  }
+  #app-presentation .rowclass2 .text-part2 .head4,
+  .p4 {
+    text-align: left;
+    padding-right: 10%;
+    padding-left: 7%;
+    padding-top: 10px;
+    display: block;
+  }
+  #app-presentation .rowclass2 .dwnbtn {
+    display: inline-block;
+    margin: 10% 0 10% 30%;
+  }
+  /* support */
+  #app-presentation .manubtns .free-of .title {
+    display: block;
+    margin-left: 3%;
+    padding-right: 5%;
+  }
+  #app-presentation .screen-img .screen-img1 {
+    width: 80%;
+    display: flex;
+  }
+  /* footer */
+  footer .footer-options {
+    display: block;
+    padding-top: 10%;
+    width: 80%;
+  }
+  footer .footer-options .head4-2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+  }
+  footer .footer-options .li {
+    display: block;
+    text-decoration: none;
+    color: #97a4be;
+    margin-top: 1%;
+    margin-left: 10%;
+  }
+  footer .footer-pragraph {
+    margin: auto;
+    text-align: center;
+  }
+  footer .footer-pragraph .h2-3 {
+    font-size: 16pt;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  footer .footer-pragraph .subscribe-p {
+    margin-bottom: 3%;
+    color: #97a4be;
+  }
+  footer .footer-pragraph .subscribe {
+    display: inline-block;
+    margin-bottom: 10%;
+  }
+  footer .subscribe form .mail {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+    margin-left: 2%;
+    padding-left: 10px;
+    background-color: #d4d4d4;
+  }
+  footer .subscribe form .submit {
+    height: 32px;
+    width: 120px;
+    background-color: #00fff0;
+    box-shadow: 3px 3px 3px 3px #00fff0;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  footer .subscribe form .submit:hover {
+    background-color: #ff9900;
+    box-shadow: 3px 3px 3px 3px #ff9900;
+  }
+  footer .footer-bottom {
+    display: block;
+    background-color: #223047;
+    margin-top: 5%;
+    padding-top: 30px;
+    padding-left: 20%;
+    height: 70px;
+    width: 100%;
+  }
+  footer .footer-bottom .reserved {
+    color: #00fff0;
+    margin-bottom: 3%;
+  }
+  .media-icons {
+    cursor: pointer;
+  }
+}

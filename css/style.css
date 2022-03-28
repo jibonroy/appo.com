@@ -1,0 +1,702 @@
+@font-face {
+  font-family: dosismedium;
+  src: url(../fonts/DosisMedium.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  font-family: dosismedium;
+  font-size: 12pt;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* header part */
+
+header {
+  background-color: #223047;
+  position: sticky;
+  display: block;
+}
+.logo-part {
+  margin: 10px 0 0 0;
+  padding-top: 10px;
+  transition: 0.3s;
+}
+.logo-part:hover {
+  background-color: #476aa7;
+  transition-timing-function: ease-in-out;
+}
+.manu-part ul {
+  margin: 5px 0px;
+  display: block;
+}
+.manu-part li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 15px;
+  transition: 0.3s;
+}
+.manu-part ul li:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+.manu-part li select {
+  background-color: #22304700;
+  color: white;
+  cursor: pointer;
+  background-color: 0;
+}
+
+.manu-part li select option {
+  cursor: pointer;
+  color: black;
+}
+.manu-part a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.btn-part button {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-part button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+/* .btn-part i {
+  margin: 20px 0;
+} */
+.btn-part img {
+  display: none;
+}
+hr {
+  width: 100%;
+  border: 0.5px solid;
+  color: rgb(177, 177, 177);
+}
+/* ========== Section app part ========== */
+
+#app {
+  background-color: #223047;
+  float: left;
+  margin: auto;
+  color: white;
+  height: 550px;
+}
+#app .container {
+  margin-top: 5%;
+}
+#app .hero-writing-part {
+  margin-top: 10%;
+}
+#app .hero-writing-part .head1 {
+  width: 90%;
+  padding: 3% 10%;
+  font-size: 18pt;
+}
+#app .hero-writing-part p {
+  text-align: justify;
+  padding: 5% 20% 0 10%;
+}
+#app .hero-writing-part button {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10%;
+  transition: 0.3s;
+}
+#app .hero-writing-part button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+#app .hero-writing-part .button2 {
+  margin: 17px 0;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #2f4464;
+  border: 0.3px solid;
+  border-color: white;
+  cursor: pointer;
+  color: rgb(224, 224, 224);
+  display: inline-block;
+  margin-left: 10%;
+  transition: 0.3s;
+}
+#app .hero-writing-part .button2:hover {
+  background-color: #ff9900;
+  color: black;
+  border-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+
+/* ========== Section services-part ========== */
+#services-part .container {
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+}
+#services-part .heading-part {
+  margin-top: 15%;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+#services-part .heading-part .h2-2 {
+  font-size: 18pt;
+}
+#services-part .hr2 {
+  width: 60px;
+  border: 4px solid #00fff0;
+  margin-left: 45%;
+}
+#services-part .services {
+  margin-top: 10%;
+}
+#services-part .services .service1 {
+  box-sizing: border-box;
+  height: 300px;
+  width: 23%;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1% 1% 10% 1%;
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+}
+#services-part .services .service1:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+#services-part .services .service1 p {
+  text-indent: 1%;
+}
+.Modern_Flat_Design {
+  font-size: 17px;
+  color: rgb(35, 49, 72);
+  text-align: center;
+}
+.Cras_ultricies_ligul {
+  font-size: 14px;
+  color: rgb(151, 164, 190);
+  line-height: 2.071;
+  text-align: center;
+}
+#services-part .services .service2 {
+  box-sizing: border-box;
+  height: 300px;
+  width: 23%;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1% 1% 10% 1%;
+  transition: 0.3s;
+  cursor: pointer;
+  display: block;
+}
+#services-part .services .service2:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+#services-part .services .service3 {
+  box-sizing: border-box;
+  height: 300px;
+  width: 23%;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1% 1% 10% 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service3:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+}
+#services-part .services .service4 {
+  box-sizing: border-box;
+  height: 300px;
+  width: 23%;
+  box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
+  text-align: center;
+  padding: 0 2px;
+  margin: 1% 1% 10% 1%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#services-part .services .service4:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+}
+/* ===============section 2==================== */
+#companny-info {
+  background-color: #f5f6fa;
+  display: inline-block;
+  height: 250px;
+}
+#companny-info .rowclass .block-image img {
+  display: inline-block;
+}
+#companny-info .rowclass .text-part {
+  background-color: #f5f6fa;
+}
+#companny-info .rowclass .text-part h4 {
+  margin-top: 3%;
+}
+#companny-info .rowclass .text-part p {
+  margin-top: 3%;
+  text-align: justify;
+  padding-right: 10%;
+  display: block;
+  background-color: #f5f6fa;
+}
+/* ================section 3==================== */
+#app-presentation {
+  margin-top: 7%;
+  display: inline-block;
+}
+#app-presentation .rowclass2 {
+  display: block;
+}
+#app-presentation .rowclass2 .text-part2 .head4,
+.p4 {
+  text-align: right;
+  padding-right: 10%;
+  padding-left: 20%;
+  padding-top: 10px;
+  display: block;
+}
+#app-presentation .rowclass2 .dwnbtn {
+  margin: 17px 0;
+  padding: 5px;
+  width: 195px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 59%;
+  transition: 0.3s;
+}
+#app-presentation .rowclass2 .dwnbtn:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+#app-presentation .manubtns {
+  display: inline-block;
+  margin-top: 5%;
+}
+#app-presentation .manubtns .made-with {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.171);
+}
+#app-presentation .manubtns .made-with:hover {
+  background-color: #5f5f5f17;
+}
+#app-presentation .manubtns .made-with img {
+  display: inline-block;
+  margin: 15px 10px 0 10px;
+}
+#app-presentation .manubtns .made-with h4 {
+  display: inline-block;
+  margin-top: 10px;
+}
+#app-presentation .manubtns .free-of {
+  display: inline-block;
+  width: 90%;
+  border-radius: 3px;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #00fff0;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 2px 4px 1px rgba(0, 255, 221, 0.836);
+}
+#app-presentation .manubtns .free-of:hover {
+  background-color: #00ff40dc;
+  box-shadow: 2px 2px 4px 1px #00ff40;
+}
+.row3 {
+  display: block;
+}
+#app-presentation .manubtns .free-of img {
+  display: inline-block;
+  margin: 10px 10px 0 10px;
+}
+#app-presentation .manubtns .free-of h4 {
+  display: inline-block;
+}
+#app-presentation .manubtns .free-of .title {
+  display: block;
+  margin-left: 7%;
+  padding-right: 5%;
+}
+#app-presentation .manubtns .fully-support {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding-bottom: 15px;
+  margin-top: 3%;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.3s;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.171);
+}
+#app-presentation .manubtns .fully-support:hover {
+  background-color: #5f5f5f17;
+}
+#app-presentation .manubtns .fully-support img {
+  display: inline-block;
+  margin: 15px 10px 0 10px;
+}
+#app-presentation .manubtns .fully-support h4 {
+  display: inline-block;
+  margin-top: 10px;
+}
+#app-presentation .manubtns .flat-and {
+  display: flex;
+  width: 90%;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding-bottom: 15px;
+  cursor: pointer;
+  margin-top: 3%;
+  box-sizing: border-box;
+  transition: 0.3s;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.171);
+}
+#app-presentation .manubtns .flat-and img {
+  display: inline-block;
+  margin: 15px 10px 0 10px;
+}
+#app-presentation .manubtns .flat-and h4 {
+  display: inline-block;
+  margin-top: 10px;
+}
+#app-presentation .manubtns .flat-and:hover {
+  background-color: #5f5f5f17;
+}
+#app-presentation .screen-img {
+  margin-left: 10%;
+
+  display: flex;
+}
+.con {
+  height: 500px;
+  display: inline-block;
+}
+/* ==============bottom section=============== */
+#bottom {
+  background-color: #f5f6fa;
+  display: flex;
+  width: 80%;
+  height: 265px;
+  padding: 5% 10%;
+}
+#bottom .row4 {
+  display: inline-block;
+}
+#bottom .row4 .text-part3 .h-2 {
+  text-align: right;
+  font-size: 18pt;
+  margin-bottom: 5%;
+}
+#bottom .row4 .text-part3 .text {
+  text-align: right;
+}
+#bottom .row4 .text-part3 .h2-3 {
+  text-align: right;
+}
+#bottom .row4 .text-part3 .r8 {
+  text-align: right;
+  padding-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#bottom .row4 .text-part3 .r82 {
+  text-align: right;
+  padding-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#bottom .row4 .text-part3 .path.h-2 {
+  display: inline-block;
+  margin-left: 90%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#bottom .row4 .text-part3 .r8:before {
+  padding: 0 20px;
+  content: url(../icons/path.png);
+}
+#bottom .row4 .text-part3 .r82:before {
+  padding: 0 25px;
+  content: url(../icons/path.png);
+}
+/* #bottom .row4 .text-part3 .path img {
+  display: inline;
+} */
+
+#bottom .row4 .right-img-part {
+  margin-left: 10%;
+  display: inline-block;
+}
+#bottom .row4 .right-img-part .right-img {
+  margin-top: 10%;
+  margin-left: 30%;
+  display: inline-block;
+}
+.video {
+  display: inline-block;
+  background-color: #223047;
+  color: white;
+  text-align: center;
+}
+.video .pbtn {
+  margin-top: 5%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.video .pbtn:hover {
+  background-color: #476aa7;
+}
+.video .head-4 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.video .pra {
+  text-align: center;
+  padding: 0 20% 5% 20%;
+}
+/* ============download part========== */
+.download-part {
+  background-image: url(../icons/icon-bg-map.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  padding-top: 7%;
+  text-align: center;
+}
+.download-part .Join {
+  font-size: 16pt;
+  margin-bottom: 3%;
+}
+.download-part .click {
+  margin-bottom: 5%;
+  padding: 0 10%;
+}
+.download-part button {
+  margin: 17px 0 7% 0;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #00fff0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.download-part button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+}
+/* =========quote part============ */
+.quote {
+  width: 100%;
+  background: #223047;
+  display: inline-block;
+  text-align: center;
+  color: #19ebe9;
+}
+.quote .quote-p {
+  padding: 7% 26%;
+  text-align: justify;
+}
+/* ==============phones part============ */
+#phones {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #f5f6fa;
+  width: 100%;
+  height: 585px;
+}
+#phones .phones-part .phone {
+  margin: 10% 0% 10% 20%;
+}
+#phones .available-part .font {
+  font-size: 21pt;
+  margin: 35% 0 7% 0%;
+}
+#phones .available-part .p1 {
+  margin-bottom: 10%;
+}
+#phones .available-part .img-part .img1 {
+  cursor: pointer;
+}
+#phones .available-part .img-part .img2 {
+  margin-left: 8%;
+  cursor: pointer;
+}
+#phones .getTheAppBtn a {
+  text-decoration: none;
+}
+#phones .getTheAppBtn button {
+  background-color: #00fff0;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  display: block;
+  transition: 0.3s;
+  margin: auto;
+  box-shadow: 5px 5px 3px 5px #00fff0;
+}
+#phones .getTheAppBtn button:hover {
+  background-color: #ff9900;
+  transition-timing-function: ease-in-out;
+  box-shadow: 5px 5px 5px 5px #ff9900;
+}
+/* ============footer================ */
+
+footer .footer-options {
+  display: block;
+  padding-top: 10%;
+  margin-left: 15%;
+  width: 80%;
+}
+footer .footer-options .head4-2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+footer .footer-options .li {
+  display: block;
+  text-decoration: none;
+  color: #97a4be;
+  margin-top: 1%;
+}
+footer .footer-pragraph {
+  margin: auto;
+  text-align: center;
+}
+footer .footer-pragraph .h2-3 {
+  font-size: 16pt;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+footer .footer-pragraph .subscribe-p {
+  margin-bottom: 3%;
+  color: #97a4be;
+}
+footer .footer-pragraph .subscribe {
+  display: inline-block;
+  margin-bottom: 10%;
+}
+footer .subscribe form .mail {
+  width: 300px;
+  height: 30px;
+  margin: auto;
+  margin-left: 30%;
+  padding-left: 10px;
+  background-color: #d4d4d4;
+}
+footer .subscribe form .submit {
+  height: 32px;
+  width: 140px;
+  margin-left: 10px;
+  background-color: #00fff0;
+  box-shadow: 3px 3px 3px 3px #00fff0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer .subscribe form .submit:hover {
+  background-color: #ff9900;
+  box-shadow: 3px 3px 3px 3px #ff9900;
+}
+footer .footer-bottom {
+  display: block;
+  background-color: #223047;
+  margin-top: 5%;
+  padding-top: 30px;
+  padding-left: 10%;
+  height: 50px;
+}
+footer .footer-bottom .reserved {
+  color: #00fff0;
+}
+.media-icons {
+  cursor: pointer;
+}
