@@ -17,6 +17,9 @@
     margin: auto;
     display: block;
   }
+  body {
+  overflow-x: hidden;
+}
   .container {
     width: 80%;
     margin: auto;
